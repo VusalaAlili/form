@@ -1,0 +1,113 @@
+/* default */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* bg */
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/signup-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* form-container */
+.form-container{
+    width: 676px;
+    height: 736px;
+    border-radius: 10px;
+    background-color: rgba(251, 251, 251, 1);
+    padding: 65px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* form-header */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1.25px;
+}
+
+/* form-body */
+.uname, .email, .passwod, .repeat-password{
+    width:502px;
+    height: 54px;
+    margin: 20px;
+    padding: 17px;
+    border: none;
+    border-bottom: 2px solid #edecec;
+    border-top: 2px solid #edecec;
+    border-left: 2px solid #edecec;
+    border-right: 2px solid #edecec;
+    border-radius: 5px;
+
+}
+.submit{
+    width:502px;
+    height: 54px;
+    margin: 20px; 
+    border: hidden;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #A7B1E3 0%, #81E8D9 100%);
+    color: white;
+    margin-top: 44px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+}
+.checkbox{
+    margin-left: 20px;
+}
+.agree{
+    margin-top: -17px;
+    margin-left: 47px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+}
+.terms{
+    list-style-type: none;
+    color: #000;
+}
+.form i{
+    display: flex;
+    position: relative;
+    float: right;
+    margin-top: -55px;
+    margin-right: 50px;
+    z-index: 1000;
+    font-size: 22px;
+}
+
+/* form-footer */
+.have-account{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 37px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+}
+.log-here{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    list-style-type: none;
+    color: #000;
+    
+}
